@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Database generated locally
+backend/ev_charging.db
+*.db-journal
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Original raw dataset is not required to run the final app
+Data/raw/

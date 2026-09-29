@@ -1,0 +1,18 @@
+{
+    "model_name": "GradientBoostingRegressor",
+    "target": "daily_session_associated_energy_kwh",
+    "features": [
+        "day_of_week",
+        "month",
+        "is_weekend",
+        "energy_lag_1",
+        "energy_lag_7",
+        "energy_rolling_7",
+        "is_holiday"
+    ],
+    "mae_kwh": 69.34,
+    "rmse_kwh": 94.27,
+    "r2": 0.505,
+    "training_method": "chronological_80_20_split",
+    "notes": "Forecasts daily session-associated energy demand. This is not exact meter-measured site load."
+}

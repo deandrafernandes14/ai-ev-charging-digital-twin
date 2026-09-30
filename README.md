@@ -4,6 +4,10 @@ An end-to-end EV charging operations platform built using real charging-session 
 
 The project combines a historical digital twin, machine-learning demand forecasting, anomaly detection, operational analytics, a React dashboard, MATLAB scenario simulation, and a locally hosted GenAI assistant.
 
+## Dashboard Preview
+
+![EV Charging Station Digital Twin Dashboard](assets/ev-digital-twin-dashboard.png)
+
 ## Key Features
 
 - Historical replay of 54 EV charging points (EVSEs)
